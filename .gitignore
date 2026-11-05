@@ -1,0 +1,22 @@
+# Entornos y archivos generados
+.venv/
+venv/
+env-api/
+.tox/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Credenciales y archivos locales
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
